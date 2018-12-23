@@ -1,0 +1,150 @@
+:root {
+	--main-color: #222 !important;
+}
+html body {
+	height: 100%;
+	font-family: 'Bree Serif', serif;
+	font-size: 19px;
+}
+hr {
+	width: 150px;
+	border: 2px solid #222;
+}
+.service-hr {
+	width: 150px;
+	border: 2px solid #fff;
+}
+.btn-transparent {
+	background-color: transparent;
+	color: #fff;
+}
+.navbar {
+	background-color: rgba(2,2,2,0.7) !important;
+}
+.header {
+	background-image: url(https://media.giphy.com/media/11j5OF7BTglVkc/giphy.gif);
+	background-repeat: none;
+	height: 100%;
+	background-size: 100%;
+}
+.header h1 {
+	letter-spacing: 2px;
+	font-size: 50px;
+}
+.header-content {
+	content: "";
+	background-color: rgba(3,3,3, 0.7);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: #fff;
+}
+#about {
+	background-color: #e0e0e0;
+	padding-top: 30px;
+}
+
+#btn-animated {
+	animation: anim 1s linear infinite alternate;
+	position: absolute;
+	margin-left: -25px;
+}
+.btn-top {
+	position: fixed; bottom: 10px; right: 20px;
+	background-color: transparent;
+	border: 1px solid #000;
+	z-index: 9999;
+}
+@keyframes anim {
+	0% {
+		margin-top: 0;
+	}
+	100% {
+		margin-top: 5px;
+	}
+}
+.service {
+	background-image: url(https://media.giphy.com/media/3o85xuMj18HeA47AZy/giphy.gif);
+	background-size: 100%;
+}
+.service-content {
+	content: "";
+	padding-top: 30px;
+	background-color: rgba(3,3,3, 0.7);
+	color: #fff;
+	padding-bottom: 50px;
+}
+.service-content .card {
+	color: #222;
+}
+.service-content .card .card-header {
+	padding-bottom: 50px;
+}
+.card-icon {
+	background-color: orange;
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+	border: 3px solid #333;
+	margin-top: -60px;
+}
+.product {
+	background-color: #e0e0e0;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.product .card .btn {
+	width: 100%;
+}
+.price {
+	color: green;
+}
+.main-btn-container {
+	padding-top: 30px;
+	
+}
+.main-btn {
+	background-color: transparent;
+	border: 1px solid #222;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+.contact {
+	background-color: #e0e0e0;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.btn-contact-icon, .input-contact, .textarea-contact {
+	border-radius: 0;
+}
+.btn-contact-icon:focus, .input-contact:focus, .textarea-contact:focus {
+	box-shadow: none !important;
+}
+.btn-contact-icon {
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+}
+.input-contact {
+	height: 40px;
+}
+.textarea-contact {
+	height: 150px;
+}
+.btn-contact {
+	margin-top: 30px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	background-color: orange;
+}
+.map {
+	width: 100%;
+	height: 350px;
+	background-color: gray;
+}
+.footer {
+	background-color: #222;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
